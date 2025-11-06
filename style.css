@@ -1,0 +1,63 @@
+/* syntax of CSS */
+/* Selector {
+    propriety:value
+} */   
+
+
+
+    
+    /*those who know these are commentaries*/
+
+
+div{
+    background-color: rgb(56, 98, 98);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aquamarine;
+}
+
+main{
+    margin-top:226px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    color: red;
+}
+h3{ 
+    font-style:oblique;            /*executes the second one*/
+    color:aquamarine;
+}
+
+header{
+    position:fixed;
+    top: 0px;
+    width:150%;
+    z-index: 100;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding:11px;
+    opacity: 87%;
+}
+
+nav a{
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:aquamarine;
+    
+}
+
+#social{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px;
+    flex-direction:column;
+}
